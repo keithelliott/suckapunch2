@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  suckapunch
 //
-//  Created by Keith Elliott on 12/11/12.
+//  Created by Keith Elliott on 12/4/12.
 //  Copyright (c) 2012 Keith Elliott. All rights reserved.
 //
 
@@ -12,13 +12,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+	
+	[TestFlight takeOff:@"786c4fddf8756ca0753a8012f27a8ecb_MTYzNzMxMjAxMi0xMi0wNiAxNjo0OToyOS4xMzM3MjU"];
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
 	// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
