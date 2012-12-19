@@ -13,5 +13,6 @@
 	#import <Foundation/Foundation.h>
 	#import <CoreGraphics/CoreGraphics.h>
 	#import <CoreImage/CoreImage.h>
+	#include <QuartzCore/QuartzCore.h>
 	#import "TestFlight.h"
 #endif
